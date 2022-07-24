@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagina web de restaurante Ahumado and Grills</title>
+	<link rel="stylesheet" href="css/normalie.css">
+
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<script type="text/javascript" src="js/function.js"></script>
+
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+	<header class="header full-box">
+		<div class="header-brand text-center full-box">
+			<a href="principal.html">
+				<img src="img/ahumado.jpg" alt="logo" class="img-fluid">
+			</a>
+		</div>
+		<div class="header-options full-box">
+			<nav class="header-navbar full-box poppins-regular font-weight-bold">
+				<ul class="list-unstyled full-box">
+					<li>
+						<a href="principal.html">Inicio <span class="full-box"></span></a>
+					</li>
+					<li>
+	                    <a href="menu.html" >Menú<span class="full-box" ></span></a>
+	                </li>
+				</ul>
+			</nav>
+			<div class="header-button full-box text-center btn-login-menu" >
+	            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+  				<path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+				</svg>
+					<div class="div-bordered popup-login">
+	            	 <!-- Inicio de sesion -->
+	                <span class="text-center poppins-regular font-weight-bold">Inicio de sesión</span>
+	                <form class="full-box" action="">
+	                    <div class="form-outline mb-4">
+	                        <input type="email" class="form-control" name="login_email_cliente" id="login_email" maxlength="70" required="" placeholder="Email" >
+	                    </div>
+	                    <div class="form-outline mb-4">
+	                        <input type="password" class="form-control" name="login_clave_cliente" id="login_password" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required="" placeholder="Contraseña" >
+	                    </div>
+	                    <p class="text-center">
+	                        <button class="btn btn-info btn-sm w-100">Iniciar sesión</button>
+	                    </p>
+	                </form>
+	                <hr>
+	                <p class="text-center full-box">¿No tienes cuenta? <a href="registration.html">Regístrate aquí</a></p>
+	          	</div>
+		</div>
+			<a href="bag.html" class="header-button full-box text-center" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Carrito" >
+	            	<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+  					<path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+					</svg>
+	            	<span class="badge bg-warning rounded-pill bag-count" >2</span>
+	        </a>
+	    </div>
+	</header>
+
+	<div class="banner">
+	    <div class="banner-body">
+	        <h2 class="text-uppercase">Bienvenido a RESTAURANTE AHUMADOS Y ASADOS C.A de S.V</h2>
+	        <p>Los mejores platillos y la mejor calidad los encuentras en AQUÍ</p>
+	        <a href="menu.html" class="btn btn-warning"><i class="fas fa-hamburger fa-fw"></i> &nbsp; Ir al menu</a>
+	    </div>
+	</div>
+
+	<div class="container container-web-page">
+	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios</h3>
+	    <br>
+	    <div class="row">
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center">
+	            	<i class="fas fa-shipping-fast fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Envíos a domicilio</h5>
+	            <p class="text-center">Los envíos a domicilio en las Zonas Metropolitanas de San Salvador y Santa Tecla tienen un tiempo estimado de entrega de 30 minutos; consulte si hay servicio de cobertura para su zona de vivienda. </p>
+	        </div>
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-utensils fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Ventas en restaurantes y comida para llevar</h5>
+	            <p class="text-center">Contamos con un sistema de comida para llevar xD</p>
+	        </div>
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-store-alt fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Reservaciones de local</h5>
+	            <p class="text-center">Atendemos toda clase de eventos, bodas, fiesta rosa, y empresariales abierto Desde las 6.30am, su evento son 5 horas . decoración completa a su recepcion</p>
+	        </div>
+	    </div>
+	</div>
+	<br>
+	<hr>
+
+	<div class="container-fluid container-web-page">
+		<h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros platillos más populares</h3>
+	    <div class="container-cards full-box">
+
+	        <div class="card shadow-1-strong">
+	            <img class="card-img-top" src="img/parrillada.jpg" alt="nombre_platillo">
+	            <div class="card-body text-center">
+	                <h5 class="card-title font-weight-bold">Parrillada para 6 personas</h5>
+	                <p class="card-text lead"><span class="badge bg-secondary">$40.00 USD</span></p>
+	            </div>
+	            <div class="card-body text-center">
+	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                &nbsp; &nbsp;
+	                <a href="details.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
+	            </div>
+	        </div>
+	        <div class="card shadow-1-strong">
+	            <img class="card-img-top" src="img/tomahawk.jpg" alt="nombre_platillo">
+	            <div class="card-body text-center">
+	                <h5 class="card-title font-weight-bold">tomahawk deluxe</h5>
+	                <p class="card-text lead"><span class="badge bg-secondary">$50.00 USD</span></p>
+	            </div>
+	            <div class="card-body text-center">
+	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                &nbsp; &nbsp;
+	                <a href="details.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
+	            </div>
+	        </div>
+			
+			<div class="card shadow-1-strong">
+	            <img class="card-img-top" src="img/Lomoahumado.jpg" alt="nombre_platillo">
+	            <div class="card-body text-center">
+	                <h5 class="card-title font-weight-bold">Lomo Ahumado</h5>
+	                <p class="card-text lead"><span class="badge bg-secondary">$30.00 USD</span></p>
+	            </div>
+	            <div class="card-body text-center">
+	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                &nbsp; &nbsp;
+	                <a href="details.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
+	            </div>
+	        </div>
+	</div>
+	<hr>
+	<div class="container container-web-page">
+	    <div class="row justify-content-md-center">
+	        <div class="col-12 col-md-6">
+	            <figure class="full-box">
+	                <img src="img/formulario.jpg" alt="registration" class="img-fluid">
+	            </figure>
+	        </div>
+	        <div class="w-100"></div>
+	        <div class="col-12 col-md-6">
+	            <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Crea tu cuenta</h3>
+	            <p class="text-justify">
+	                Crea tu cuenta para poder realizar pedidos de platillos hasta la puesta de tu casa, es muy fácil y rápido.
+	            </p>
+	            <p class="text-center">
+	                <a href="registration.html" class="btn btn-primary" >Crear cuenta</a>
+	            </p>
+	        </div>
+	    </div>
+	</div>
+	<hr>
+	<!--Footer -->
+	<footer class="footer">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" ><i class="far fa-copyright"></i> </h5></li>
+	                    <li> Todos los derechos reservados </li>
+	                </ul>
+	            </div>
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" >El Salvador</h5></li>
+	                    <li><i class="fas fa-map-marker-alt fa-fw"></i> San Salvador, El Salvador, Centro América</li>
+	                </ul>
+	            </div>
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" >Siguenos en:</h5> </li>
+	                    <li>
+	                        <a href="https://es-la.facebook.com" class="footer-link" target="_blank" >
+	                            <i class="fab fa-facebook fa-fw"></i> Facebook
+	                        </a>
+	                    </li>
+
+	                    <li>
+	                        <a href="https://www.youtube.com/" class="footer-link" target="_blank" >
+	                            <i class="fab fa-youtube fa-fw"></i>
+	                                Youtube
+	                        </a>
+	                    </li>
+
+
+	                    <li>
+	                        <a href="https://www.instagram.com/" class="footer-link" target="_blank" >
+	                            <i class="fab fa-instagram fa-fw"></i>
+	                                Instagram
+	                        </a>
+	                    </li>
+
+	                    <li>
+	                        <a href="https://www.twitter.com/" class="footer-link" target="_blank" >
+	                            <i class="fab fa-twitter fa-fw"></i>
+	                                Twitter
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+</body>
+</html>
